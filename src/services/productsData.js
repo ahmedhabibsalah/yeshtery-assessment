@@ -204,7 +204,7 @@ export const featuredData = [
 function getProductData(id) {
   let productData = productsArray.find((item) => item.id === id);
 
-  if (productData == undefined) {
+  if (productData === undefined) {
     console.log("Product data does not exist for ID: " + id);
     return undefined;
   }
